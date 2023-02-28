@@ -1,23 +1,8 @@
 <template>
   <div>
     <h2>Home</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum blanditiis, ullam iure omnis sapiente suscipit eveniet sed hic voluptatibus optio explicabo voluptate, incidunt quidem qui sint aspernatur dicta delectus nemo.</p>
 
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about">About</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/products">Products</NuxtLink>
-          </li>
-          <li><NuxtLink to="/products/7">Products 7</NuxtLink></li>
-        </ul>
-      </nav>
-    </header>
   </div>
 </template>
 
