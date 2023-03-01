@@ -13,7 +13,7 @@
           <li>
             <NuxtLink to="/products">Products</NuxtLink>
           </li>
-          <li><NuxtLink to="/products/7" class="btn">Products 7</NuxtLink></li>
+          <!-- <li><NuxtLink to="/products/7" class="btn">Products 7</NuxtLink></li> -->
         </ul>
       </nav>
     </header>
