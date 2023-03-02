@@ -12,6 +12,7 @@ export default defineEventHandler(async (event) => {
     const { data } = await $fetch(`https://api.currencyapi.com/v3/latest?apikey=${currencyKey}`);
 
   return {
-    message: `Hello, ${name}! You are ${age} years old. Currency data: ${JSON.stringify(data)}`,
+    message: `Hello, ${name}! You are ${age} years old.`,
+    messageForCurrency: `Currency data: ${JSON.stringify(data)}`,
   };
 });
