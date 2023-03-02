@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss'
     ],
-    app:{
+    app: {
         head: {
             title: 'Nuxt App - Vlado',
             meta: [
@@ -12,8 +12,11 @@ export default defineNuxtConfig({
                 }
             ],
             link: [
-                { rel: 'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
             ]
         }
+    },
+    runtimeConfig: {
+        currencyKey: process.env.CURRENCY_API_KEY
     }
 })
